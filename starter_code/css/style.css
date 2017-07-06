@@ -49,9 +49,8 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open Sans', sans-serif;
+     
 }
 
 
@@ -64,21 +63,134 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
-
 }
 
 header {
-
+  color: white;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  height: 350px;
+  max-width: 50%;
+  min-width: 300px;
+  display: block;
+  margin: auto;
 }
 
 footer {
-
+  clear: both;
+  background: #121212;
+  color: #f9e42e;
+  position: relative;
+  float: center;
+  height: 100px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.benefits-box {
+  max-width: 50%;
+  min-width: 300px;
+  display: block;
+  margin: auto;
+  background: #f0efef;
+  height: 200px;
+}
+
+.testimonial-box {
+  max-width: 50%;
+  min-width: 300px;
+  display: block;
+  margin: auto;
+  padding: 50px;
+  color: white;
+  height: 200px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+}
 
 
+.yellow-button {
+  background-color: #f9e42e;
+  border: 5px;
+  font-weight: 800;
+  font-size: 14px;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  color: #033048;
+  width: 200px;
+  border-radius: 3px;
+}
 
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  color: #033048;
+}
+
+.benefits-text {
+  padding-top: 10px;
+  font-size: 13px;
+  font-weight: 300;
+  padding-bottom: 10px;
+  color: #606161;
+}
+
+.benefits-list {
+  font-size: 13px;
+  font-weight: 300;
+  list-style-type: disc;
+  padding-left: 30px;
+  color: #606161;
+}
+
+.testimonial-italic {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.blue-button {
+  background-color: #033048;
+  border: 5px;
+  display: block;
+  margin: auto;
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.yellow-background {
+  background-color: #f9e42e;
+  width: 100%;
+  height: 50px;
+  padding: 7px;
+}
+
+.navy-background {
+  background: #033048
+}
